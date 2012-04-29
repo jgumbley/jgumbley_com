@@ -11,7 +11,7 @@ config['S3_BUCKET'] = 'www.jgumbley.com'
 def config_value(key):
     return config[key]
 
-ext_allowed = tuple('jpg jpeg png html js css pdf'.split())
+ext_allowed = tuple('jpg jpeg png html js css pdf gif'.split())
 
 def allowed(filename):
     return (extension(filename) in ext_allowed)
@@ -27,12 +27,13 @@ def store_in_s3(filename, content):
     k.key = filename
     mime = mimetypes.guess_type(filename)[0]
     k.set_metadata('Content-Type', mime)
-    k.set_contents_from_string(content)
+    print filename
+    k.set_contents_from_filename(content)
     k.set_acl('public-read')
 
 def upload_file(filename, u_filename):
-    with open(filename) as f:
-        store_in_s3(u_filename, f.read())
+    #with open(filename) as f:
+    store_in_s3(u_filename, filename)
 
 if __name__ == '__main__':
     path = "./static"
