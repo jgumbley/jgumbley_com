@@ -4,8 +4,8 @@ from boto.s3.key import Key
 
 config = {}
 config['S3_API_KEY'] = 'AKIAJX3DKI72JEK4AL6Q'
-config['S3_API_SECRET'] = os.environ.get('S3_API_SECRET')
 print os.environ.get('S3_API_SECRET')
+config['S3_API_SECRET'] = os.environ.get('S3_API_SECRET')
 config['S3_BUCKET'] = 'www.jgumbley.com'
 
 def config_value(key):
