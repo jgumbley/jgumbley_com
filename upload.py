@@ -31,6 +31,7 @@ def store_in_s3(filename, content):
     k.set_contents_from_filename(content)
     k.set_acl('public-read')
 
+
 def upload_file(filename, u_filename):
     #with open(filename) as f:
     store_in_s3(u_filename, filename)
