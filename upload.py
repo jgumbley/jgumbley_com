@@ -3,8 +3,7 @@ from boto.s3.connection import S3Connection
 from boto.s3.key import Key
 
 config = {}
-config['S3_API_KEY'] = 'AKIAJX3DKI72JEK4AL6Q'
-print os.environ.get('S3_API_SECRET')
+config['S3_API_KEY'] = os.environ.get('S3_API_KEY')
 config['S3_API_SECRET'] = os.environ.get('S3_API_SECRET')
 config['S3_BUCKET'] = 'www.jgumbley.com'
 
@@ -27,7 +26,6 @@ def store_in_s3(filename, content):
     k.key = filename
     mime = mimetypes.guess_type(filename)[0]
     k.set_metadata('Content-Type', mime)
-    print filename
     k.set_contents_from_filename(content)
     k.set_acl('public-read')
 
