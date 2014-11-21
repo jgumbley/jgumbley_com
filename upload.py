@@ -10,7 +10,7 @@ config['S3_BUCKET'] = 'www.jgumbley.com'
 def config_value(key):
     return config[key]
 
-ext_allowed = tuple('jpg jpeg png html js css pdf gif'.split())
+ext_allowed = tuple('txt jpg jpeg png html js css pdf gif'.split())
 
 def allowed(filename):
     return (extension(filename) in ext_allowed)
