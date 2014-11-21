@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/jgumbley
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.jgumbley.com
+  * I am jgumbley (https://keybase.io/jgumbley) on keybase.
+  * I have a public key with fingerprint C50D EE5D 7DCA B57B D26A  E4AA 0DC2 D5FE 7E45 4AB6
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.3"
+        },
+        "key": {
+            "fingerprint": "c50dee5d7dcab57bd26ae4aa0dc2d5fe7e454ab6",
+            "host": "keybase.io",
+            "key_id": "0DC2D5FE7E454AB6",
+            "uid": "431815acc8b09ce55b3e6e4cda4cc300",
+            "username": "jgumbley"
+        },
+        "merkle_root": {
+            "ctime": 1416573373,
+            "hash": "cb1c895d1e451c28a006e08a435d313d5cc254b515386b959edbf601a57722216f8ad00bdf153711a89deb6bc901654a8523e1feabf06f01c687d8ba3376c8a6",
+            "seqno": 97400
+        },
+        "service": {
+            "hostname": "www.jgumbley.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1416573554,
+    "expire_in": 157680000,
+    "prev": "e08c5ab3a0dbc6470f13e4132dca1c44d0d9dcd6cfe6fb43a29555d6117f9902",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFVkltsVEUYx7dgbVlSoZpiMITLCT4Y1+3MOXM5p0mJXNYHKSGggRCj27md7Snd
+Pcs5Z7u2zaIRiaEBQkl8qIhpeeABSBRLNI0vUCOJaUwkQuKDiUa8REswNYQaWKsz
+TYkyTzOZ3/y////75kTL0lS6oWXqxvzB3IufNEz/xlMvh3Y0ZPFQDlgdQ5boC1Qp
+MbsSKyqrw9qvBjiLVTYI15dCqbK98fpFJmP1qygOwpKmQJZmHauWMbh57AelgorK
+UWC0LIGBVApLKgXjmHJpE6YQY0AKW2JfUYUwYpxoyZ4wTh6qai1o5gNpqmzbam/D
+L+RoTvObtxi+snCBHOhCzIRwOfCEwpg7iigkJENCOAAYMFbRYqTeQqXI+7RR7beo
+ov19Kh+F4UJokQQGgQgSTB2HOtoRi3tMBg6F62EJtVcobJcBQBRwGXKwdKAjsRA2
+RhxD7LiEe9hTkvsEQIYptW0bEt9lEgAufU1QCJnrScUJFx7QtRBzse0o6CvGfUB8
+AAVxqXQ50yaIcJnJGqsDpdDq8CgCoGaOUX8glLFturYYrlqtZh8EzIqwqN+VozAJ
+Rdinb3uSpBx3mODJQNngF6uK5xeV8jwoST24/08WavThpmCMMpZ6vRxEKh8YAlPi
+Ar1MIdWvNXVbBGbc0fPlgiAKfOgoBB1bjx8KhCSQnhSSCF8RnyOH2R7GWBIIqe95
+wP4vKtU+WUFLxkGhxJJKpKzakYY1j6Qa0qlHG5eYr5tKL1v54D9/9WHT3633R5tX
+nF91Yd/Xlz9Ktizb1bjzn/TuiclTW8fqSw5tyoxfaLv0wWdtB/i3SXvzobYTE0+/
+er6/fe6tGAbXv4+7O9dOVIKJEVQfqf965/Y7G+rT23cdf+ybp+gP12ZylfLdP24+
+8VzXnSff7vxy4y/RS2cmVbM3eX/PiGjcO9V+pdo4Qm7umz91490/m55/5dznx764
++MbhscL80OCt8UvPdp8tZruPt9Zml47+Pj09WE1v7Bq2r763/Uqm9tPY9aafXxuy
+9q7O/5j+q+Vo670Z+/Jc8fGde1Z/umJlfbaLHll3bvzwx+PH2mfeP/nMm97s6fmp
+4WuD382MauXc8rnheycHdnT2Xt0wduZf
+=wBVN
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jgumbley
+
