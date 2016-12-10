@@ -4,3 +4,4 @@
 *.iml
 *.pyc
 deploy_key*
+*tfstate*

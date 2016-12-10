@@ -4,6 +4,10 @@ endef
 
 MACHINE_IP=$(shell cd terraform; terraform output ip)
 
+.PHONY: setup
+setup: terraform
+	cd ansible; ansible-playbook -c local setup.yml
+
 .PHONY: terraform
 terraform: deploy_key
 	cd terraform; terraform apply

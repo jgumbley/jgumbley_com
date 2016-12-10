@@ -1,9 +1,20 @@
-resource "aws_s3_bucket" "site_bucket" {
-    bucket = "j_gumbley_com"
-    acl = "private"
+resource "aws_s3_bucket" "static_origin" {
+    bucket = "www-origin.jgumbley.com"
+    acl = "public-read"
+    force_destroy = true
 
-    tags {
-        Name = "My bucket"
-        Environment = "Dev"
+    website {
+        index_document = "index.html"
+        error_document = "error.html"
+        routing_rules = <<EOF
+[{
+    "Condition": {
+        "KeyPrefixEquals": "docs/"
+    },
+    "Redirect": {
+        "ReplaceKeyPrefixWith": "documents/"
+    }
+}]
+EOF
     }
 }

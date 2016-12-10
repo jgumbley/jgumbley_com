@@ -1,0 +1,12 @@
+- hosts: 127.0.0.1
+  connection: local
+  tasks:
+    - name: Simple PUT operation
+      s3:
+        bucket=www-origin.jgumbley.com
+        object={{ item | basename }}
+        src={{ item }}
+        mode=put
+      with_fileglob:
+          - ../static/*
+
